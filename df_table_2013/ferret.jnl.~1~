@@ -1,0 +1,19 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v7.6 (optimized)
+ ! Linux 3.10.0-1127.10.1.el7.x86_64 64-bit - 06/25/20
+ ! 16-May-23 20:56     
+
+use 2013_all_table_combined_lulcc_500m_twd97.nc
+sh da
+shade LU[K=1]
+set view left
+shade LU[K=1]
+shade LU[K=2]
+shade LU[K=3]
+shade LU[K=4]
+shade LU[K=5]
+shade LU[K=6]
+shade LU[K=4]
+shade LU[K=5]
+shade LU[K=6]
+exit

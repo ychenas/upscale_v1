@@ -1,0 +1,101 @@
+year,grid,error,
+2013
+092,230_186,not enough image,
+095,230_189,not enough image,
+096,230_190,not enough image,
+097,230_191,partial area not enough image,
+120,231_191,not enough image,
+121,231_192,not enough image,
+141,232_193,not enough image,
+163,233_197,not enough image,
+179,234_195,not enough image,
+189,234_205,not enough image,
+190,234_206,not enough image,
+220,236_202,partial area not enough image,
+225,236_207,not enough image,
+226,236_208,not enough image,
+2013: 14 error grids
+
+2014
+057,228_195,partial area not enough image,
+066,228_204,partial area not enough image,
+071,229_188,partial area not enough image,
+072,229_189,partial area not enough image,
+073,229_190,not enough image,
+075,229_192,not enough image,
+086,229_203,partial area not enough image,
+095,230_189,not enough image,
+096,230_190,not enough image,
+097,230_191,partial area not enough image,
+116,231_187,not enough image,
+117,231_188,not enough image,
+118,231_189,not enough image,
+120,231_191,not enough image,
+121,231_192,not enough image,
+139,232_191,partial area not enough image,
+140,232_192,partial area not enough image,
+141,232_193,not enough image,
+142,232_194,partial area not enough image,
+143,232_195,partial area not enough image,
+146,232_198,partial area not enough image,
+147,232_199,partial area not enough image,
+148,232_200,partial area not enough image,
+150,232_202,partial area not enough image,
+151,232_203,partial area not enough image,
+152,232_204,partial area not enough image,
+154,232_206,partial area not enough image,
+159,233_193,partial area not enough image,
+160,233_194,not enough image,
+161,233_195,partial area not enough image,
+162,233_196,not enough image,
+163,233_197,not enough image,
+167,233_201,partial area not enough image,
+179,234_195,not enough image,
+180,234_196,not enough image,
+181,234_197,not enough image,
+182,234_198,not enough image,
+183,234_199,not enough image,
+198,235_196,not enough image,
+199,235_197,not enough image,
+200,235_198,not enough image,
+202,235_200,not enough image,
+203,235_201,partial area not enough image,
+229,236_211,not enough image,
+241,237_211,not enough image,
+245,238_206,not enough image,
+248,238_209,not enough image,
+249,238_210,not enough image,
+254,239_210,not enough image,
+2014: 49 error grids
+
+2015,
+149,232_201,partial area not enough image,
+2015: 1 error grid
+
+2016,
+095,230_189,not enough image,
+248,238_209,not enough image,
+2016: 2 error grids
+
+2017/2018
+239,209
+239,210
+233,192
+234,193
+
+
+2019,
+179,234_195,partial area not enough image,
+2019: 1 error grid
+
+2020
+178,234_194,partial area not enough image,
+179,234_195,partial area not enough image,
+220,236_202,not enough image,
+248,238_209,not enough image,
+2020: 4 error grids
+,,,
+"Note:
+1. Two types of errors: not enough image or partial area not enough image 
+2. no error grids: 2017&8, 2021, 2022",,,
+,,,

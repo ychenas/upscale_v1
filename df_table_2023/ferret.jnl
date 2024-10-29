@@ -1,0 +1,76 @@
+ ! NOAA/PMEL TMAP
+ ! PyFerret v7.65 (optimized)
+ ! Linux 5.11.0-1027-azure - 01/26/22
+ ! 28-Oct-24 22:57     
+
+set mode verify
+use 2023_all_table_combined_lulcc_500m_twd97.nc
+sh da
+shade lu[k=1]
+set view left
+shade lu[k=1]
+use "../df_table_2022/2022_all_table_combined_lulcc_500m_twd97.nc"
+set view right
+lu[k=1,d=1]-lu[k=2,d=2]
+shade lu[k=1,d=1]-lu[k=2,d=2]
+palette blue_red
+palette bluered
+palette bluewhitered
+palette blue_brown
+shade lu[k=1,d=1]-lu[k=2,d=2]
+shade lu[k=1,d=1]-lu[k=1,d=2]
+shade/lev=(-1,1,0.1) lu[k=1,d=1]-lu[k=1,d=2]
+shade/lev=(-.5,.5,0.05) lu[k=1,d=1]-lu[k=1,d=2]
+palette blue_darkred
+shade/lev=(-.5,.5,0.05) lu[k=1,d=1]-lu[k=1,d=2]
+du
+sh da
+shade/lev=(-inf)(-.2,.2,0.01)(inf) lu[k=1,d=1]-lu[k=1,d=2]
+shade/lev=(-inf)(-.2,.2,0.01)(inf) lu[k=2,d=1]-lu[k=2,d=2]
+shade/lev=(-inf)(-.2,.2,0.01)(inf) lu[k=3,d=1]-lu[k=3,d=2]
+shade/lev=(-inf)(-.2,.2,0.01)(inf) lu[k=4,d=1]-lu[k=4,d=2]
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=4,d=1]-lu[k=4,d=2]
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=5,d=1]-lu[k=5,d=2]
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=6,d=1]-lu[k=6,d=2]
+set view left
+shade lu[d=1,k=2]
+set view right
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=2,d=1]-lu[k=2,d=2]
+set view left
+shade lu[d=1,k=3]
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=2,d=1]-lu[k=2,d=2]
+set view left
+shade lu[d=1,k=3]
+set view right
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=3,d=1]-lu[k=3,d=2]
+set view left
+shade lu[d=1,k=2]
+shade lu[d=1,k=1]
+shade lu[d=1,k=3]
+shade lu[d=1,k=4]
+set view right
+shade/lev=(-inf)(-.5,.5,0.01)(inf) lu[k=4,d=1]-lu[k=4,d=2]
+shade/lev=(-inf)(-.1,.1,0.1)(inf) lu[k=4,d=1]-lu[k=4,d=2]
+shade/lev=(-inf)(-.1,1,0.1)(inf) lu[k=4,d=1]-lu[k=4,d=2]
+shade/lev=(-inf)(-1,1,0.1)(inf) lu[k=4,d=1]-lu[k=4,d=2]
+set view left
+shade lu[d=1,k=1]
+set view right
+shade/lev=(-inf)(-1,1,0.1)(inf) lu[k=1,d=1]-lu[k=1,d=2]
+shade/lev=(-inf)(-.5,.5,0.1)(inf) lu[k=1,d=1]-lu[k=1,d=2]
+shade lu[d=1,k=5]
+set view left
+shade lu[d=1,k=5]
+shade/lev=(0,1,0.1) lu[d=1,k=6]
+shade/lev=(0,1,0.01) lu[d=1,k=6]
+palette dark_terriantail
+palette dark_terriatail
+palette dark_terrestial
+palette dark_terrestrial
+shade/lev=(0,1,0.01) lu[d=1,k=6]
+palette blue_green_yellow
+shade/lev=(0,1,0.01) lu[d=1,k=6]
+set view right
+palette blue_orange
+shade/lev=(-inf)(-1,1,0.1)(inf) lu[k=6,d=1]-lu[k=6,d=2]
+exit
